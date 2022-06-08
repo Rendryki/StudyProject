@@ -83,6 +83,12 @@ main a{
 main ul{
     padding-left: 20px;
 }
+main ol{
+    padding-left: 20px;
+}
+main ol > li{ 
+    font-family: var(--fontetexto);
+}
 main li{
     padding: 10px;
 }
