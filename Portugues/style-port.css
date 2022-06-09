@@ -82,6 +82,7 @@ main a{
 }
 main ul{
     padding-left: 20px;
+    font-family: var(--fontetexto);
 }
 main ol{
     padding-left: 20px;
