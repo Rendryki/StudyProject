@@ -14,7 +14,131 @@
     </header>
     <main class="x">
         <h1>Probabilidade e Estatística</h1>
+        <h2>Probabilidade</h2>
+        <p>A teoria da probabilidade é o campo da Matemática que estuda experimentos ou fenômenos aleatórios e através dela é possível analisar as chances de um determinado evento ocorrer.</p>
+        <p>Quando calculamos a probabilidade, estamos associando um grau de confiança na ocorrência dos resultados possíveis de experimentos, cujos resultados não podem ser determinados antecipadamente. Probabilidade é a medida da chance de algo acontecer.</p>
+        <p>Desta forma, o cálculo da probabilidade associa a ocorrência de um resultado a um valor que varia de 0 a 1 e, quanto mais próximo de 1 estiver o resultado, maior é a certeza da sua ocorrência.</p>
+        <p>Por exemplo, podemos calcular a probabilidade de uma pessoa comprar um bilhete da loteria premiado ou conhecer as chances de um casal ter 5 filhos, todos meninos.</p>
+        <h3>Experimento Aleatório</h3>
+        <p>Um experimento aleatório é aquele que não é possível conhecer qual resultado será encontrado antes de realizá-lo.</p>
+        <p>Os acontecimentos deste tipo quando repetidos nas mesmas condições, podem dar resultados diferentes e essa inconstância é atribuída ao acaso.</p>
+        <p>Um exemplo de experimento aleatório é jogar um dado não viciado (dado que apresenta uma distribuição homogênea de massa) para o alto. Ao cair, não é possível prever com total certeza qual das 6 faces estará voltada para cima.</p>
+        <h3>Fórmula da Probabilidade</h3>
+        <p>Em um fenômeno aleatório, as possibilidades de ocorrência de um evento são igualmente prováveis.</p>
+        <p>Sendo assim, podemos encontrar a probabilidade de ocorrer um determinado resultado através da divisão entre o número de eventos favoráveis e o número total de resultados possíveis:  P(A) = n(A)/n(&ohm;) = Número de casos favoráveis/Número de casos possíveis</p>
+        <p>Sendo:</p>
+        <p>P(A): probabilidade da ocorrência de um evento A.</p>
+        <p>n(A): número de casos favoráveis ou, que nos interessam (evento A).</p>
+        <p>n(&ohm;): número total de casos possíveis.</p>
+        <p>O resultado calculado também é conhecido como probabilidade teórica.</p>
+        <p>Para expressar a probabilidade na forma de porcentagem, basta multiplicar o resultado por 100.</p>
+        <p>Exemplo 1</p>
+        <p>Se lançarmos um dado perfeito, qual a probabilidade de sair um número menor que 3?</p>
+        <p>Resolução</p>
+        <p>Sendo o dado perfeito, todas as 6 faces têm a mesma chance de caírem voltadas para cima. Vamos então, aplicar a fórmula da probabilidade.</p>
+        <p>Para isso, devemos considerar que temos 6 casos possíveis (1, 2, 3, 4, 5, 6) e que o evento "sair um número menor que 3" tem 2 possibilidades, ou seja, sair o número 1 ou 2. Assim, temos: P(A) = n(A)/n(&ohm;) &rarr;  P(A) = 2/6 = 1/3 &rarr; P(A) &TildeFullEqual; 0,33</p>
+        <p>Para responder na forma de uma porcentagem, basta multiplicar por 100.</p>
+        <p>P(A) &TildeFullEqual; 0,33 . 100 &TildeFullEqual; 33% P(A)</p>
+        <h3>Ponto Amostral</h3>
+        <p>Ponto amostral é cada resultado possível gerado por um experimento aleatório.</p>
+        <p>Exemplo</p>
+        <p>Seja o experimento aleatório lançar uma moeda e verificar a face voltada para cima, temos os pontos amostrais cara e coroa. Cada resultado é um ponto amostral.</p>
+        <h3>Espaço Amostral</h3>
+        <p>Representado pela letra Ω(ômega), o espaço amostral corresponde ao conjunto de todos os pontos amostrais, ou , resultados possíveis obtidos a partir de um experimento aleatório.</p>
+        <p>Por exemplo, ao retirar ao acaso uma carta de um baralho, o espaço amostral corresponde às 52 cartas que compõem este baralho.</p>
+        <p>Da mesma forma, o espaço amostral ao lançar uma vez um dado, são as seis faces que o compõem:</p>
+        <p>Ω = {1, 2, 3, 4, 5, 6}.</p>
+        <p>A quantidade de elementos em um conjunto chama-se cardinalidade, expressa pela letra n seguida do símbolo do conjunto entre parênteses.</p>
+        <p>Assim, a cardinalidade do espaço amostral do experimento lançar um dado é n(Ω)=6.</p>
+        <h3>Espaço Amostral Equiprovável</h3>
+        <p>Equiprovável significa mesma probabilidade. Em um espaço amostral equiprovável, cada ponto amostral possui a mesma probabilidade de ocorrência.</p>
+        <p>Exemplo</p>
+        <p>Em uma urna com 4 esferas de cores: amarela, azul, preta e branca, ao sortear uma ao acaso, quais as probabilidades de ocorrência de cada uma ser sorteada?</p>
+        <p>Sendo experimento honesto, todas as cores possuem a mesma chance de serem sorteadas.</p>
+        <h3>Tipos de Eventos</h3>
+        <p>Evento é qualquer subconjunto do espaço amostral de um experimento aleatório.</p>
+        <h4>Evento certo</h4>
+        <p>O conjunto do evento é igual ao espaço amostral.</p>
+        <p>Exemplo</p>
+        <p>Em uma delegação feminina de atletas, uma ser sorteada ao acaso e ser mulher.</p>
+        <h4>Evento impossível</h4>
+        <p>O conjunto do evento é vazio.</p>
+        <p>Exemplo</p>
+        <p>Imagine que temos uma caixa com bolas numeradas de 1 a 20 e que todas as bolas são vermelhas.</p>
+        <p>O evento "tirar uma bola vermelha" é um evento certo, pois todas as bolas da caixa são desta cor. Já o evento "tirar um número maior que 30", é impossível, visto que o maior número na caixa é 20.</p>
+        <h4>Evento complementar</h4>
+        <p>Os conjuntos de dois eventos formam todo o espaço amostral, sendo um evento complementar ao outro.</p>
+        <p>Exemplo</p>
+        <p>No experimento lançar uma moeda, o espaço amostral é Ω = {cara, coroa}.</p>
+        <p>Seja o evento A sair cara, A={cara}, o evento B sair coroa é complementar ao evento A, pois, B={coroa}. Juntos formam o próprio espaço amostral.</p>
+        <h4>Evento mutuamente exclusivo</h4>
+        <p>Os conjuntos dos eventos não possuem elementos em comum. A intersecção entre os dois conjuntos é vazia.</p>
+        <p>Exemplo</p>
+        <p>Seja o experimento lançar um dado, os seguintes eventos são mutuamente exclusivos</p>
+        <p>A: ocorrer um número menor que 5, A={1, 2, 3, 4}</p>
+        <p>B: ocorrer um número maior que 5, A={6}</p>
+        <nav class="YT"><a href="https://www.todamateria.com.br/probabilidade/" target="_blank">Abrir na fonte original do texto</a></nav>
+        <div class="video" ><iframe width="560" height="315" src="https://www.youtube.com/embed/V5e8_Jp67M0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><nav class="YT"><a href="https://www.youtube.com/watch?v=V5e8_Jp67M0" target="_blank">Abrir no Youtube</a></nav>
+
+        <h2>Estatística</h2>
+        <p>A estatística é o campo da matemática que relaciona fatos e números em que há um conjunto de métodos que nos possibilita coletar dados e analisá-los, assim sendo possível realizar alguma interpretação deles. A estatística é dividida em duas partes: descritiva e inferencial. A estatística descritiva é caracterizada pela organização, análise e apresentação dos dados, enquanto a estatística inferencial tem como característica o estudo de uma amostra de determinada população e, com base nela, a realização de análises e a apresentação de dados</p>
+        <h3>Princípios da estatística</h3>
+        <p>Veremos, a seguir, os principais conceitos e princípios da estatística. Com base neles, será possível definir conceitos mais sofisticados.</p>
+        <h4>População ou universo estatístico</h4>
+        <p>A população ou universo estatístico é o conjunto formado por todos elementos que participam de um determinado tema pesquisado.</p>
+        <h5>Exemplos de universo estatístico</h5>
+        <p>a) Em uma cidade, todos os habitantes pertencem ao universo estatístico.</p>
+        <p>b) Em um dado de seis faces, a população é dada pelo número de faces.</p>
+        <p>{1, 2, 3, 4, 5, 6}</p>
+        <h4>Dado estatístico</h4>
+        <p>O dado estatístico é um elemento que pertence ao conjunto da população, obviamente esse dado deve estar envolvido com o tema da pesquisa.</p>
+        <h4>Amostra</h4>
+        <p>Chamamos de amostra o subconjunto formado com base no universo estatístico. Uma amostra é utilizada quando a população é muito grande ou infinita. Em casos em que coletar todas as informações do universo estatístico é inviável por motivos financeiros ou logísticos, também se faz necessário a utilização de amostras.</p>
+        <p>A escolha de uma amostra é de extrema importância para uma pesquisa, e ela deve representar de maneira fidedigna a população. Um exemplo clássico da utilização das amostras em uma pesquisa é na realização do censo demográfico do nosso país.</p>
+        <h4>Variável   </h4>
+        <p>Em estatística, a variável é o objeto de estudo, isto é, o tema que a pesquisa pretende estudar. Por exemplo, ao estudar-se as características de uma cidade, o número de habitantes pode ser uma variável, assim como o volume de chuva em determinado período ou até mesmo a quantidade de ônibus para o transporte público. Note que o conceito de variável em estatística é dependente do contexto da pesquisa.</p>
+        <p>A organização dos dados em estatística dá-se em etapas, como em todo processo de organização. Inicialmente é escolhido o tema a ser pesquisado, em seguida, é pensado o método para a coleta dos dados da pesquisa, e o terceiro passo é a execução da coleta. Após o fim dessa última etapa, faz-se a análise do que foi coletado, e assim, com base na interpretação, busca-se resultados. Veremos, agora, alguns conceitos importantes e necessários para a organização dos dados.</p>
+        <h4>Rol</h4>
+        <p>Em casos em que os dados podem ser representados por números, ou seja, quando a variável é quantitativa, utiliza-se o rol para organização desses dados. Um rol pode ser crescente ou decrescente. Caso uma variável não seja quantitativa, ou seja, caso seja qualitativa, não é possível utilizar-se o rol, por exemplo, se os dados são sentimentos sobre determinado produto.</p>
+        <h5>Exemplo</h5>
+        <p>Em uma sala de aula, foram coletadas as alturas dos alunos em metros. São elas: 1,70; 1,60; 1,65; 1,78; 1,71; 1,73; 1,72; 1,64.</p>
+        <p>Como o rol pode ser organizado de maneira crescente ou decrescente, segue que:</p>
+        <p>rol: {1,60; 1,64; 1,65; 1,70; 1,71; 1,72; 1,73; 1,78}</p>
+        <p>Observe que, com o rol já montado, é possível encontrar um dado com mais facilidade.</p>
+        <h4>Classes</h4>
+        <p>Em casos em que a variável é contínua, isto é, quando ela possui diversos valores, é necessário agrupá-los em intervalos reais. Na estatística esses intervalos são chamados de classes.</p>
+        <p>Para construir a tabela de distribuição de frequências em classes, devemos colocar os intervalos na coluna da esquerda, com seu devido título, e na coluna da direita, devemos colocar a frequência absoluta de cada um dos intervalos, ou seja, quantos elementos pertencem a cada um deles.</p>
+        <h3>Medidas de posição</h3>
+        <p>As medidas de posição são utilizadas em casos em que é possível construir-se um rol numérico com os dados ou uma tabela de frequência. Essas medidas indicam a posição dos elementos em relação ao rol. As três principais medidas de posição são:</p>
+        <h4>Média</h4>
+        <p>Considere o rol com os elementos (a1, a2, a3, a4, …, an), a média aritmética desses n elementos é dada por: x = (a1+a2+a3+an)/n</p>
+        <h4>Mediana</h4>
+        <p>A mediana é dada pelo elemento central de um rol que possui uma quantidade ímpar de elementos. Caso o rol possua uma quantidade par de elementos, devemos considerar os dois elementos centrais e calcular a média aritmética entre eles.</p>
+        <h4>Moda</h4>
+        <p>Chamaremos de moda o elemento do rol que possui maior frequência, ou seja, o elemento que mais aparece nele.</p>
+        <h3>Medidas de dispersão</h3>
+        <p>As medidas de dispersão são utilizadas nos casos em que a média já não é suficiente. Por exemplo, imagine que dois carros tenham percorrido uma média de 40.000 quilômetros. Somente com conhecimento sobre média podemos afirmar que os dois carros andaram determináveis quilômetros cada um, certo?</p>
+        <p>No entanto, imagine que um dos carros tenha percorrido 79.000 quilômetros, e o outro, 1.000 quilômetros, veja que somente com as informações sobre média não é possível realizar afirmações com precisão.</p>
+        <p>As medidas de dispersão nos indicarão o quanto os elementos de um rol numérico estão afastados da média aritmética. Temos duas importantes medidas de dispersão:</p>
+        <h4>Variância (&delta;²)</h4>
+        <p>Vamos chamar de variância a média aritmética dos quadrados da diferença entre cada elemento do rol e a média aritmética desse rol. A variância é representada por: &delta;².</p>
+        <h4>Desvio-padrão (&delta;)</h4>
+        <p>O desvio-padrão é dado pela raiz da variância, ele nos indica o quanto um elemento está disperso em relação à média. O desvio padrão é denotado por &delta;.</p>
+        <h3>Para que serve a estatística?</h3>
+        <p>Vimos que a estatística está relacionada a problemas de contagem ou organização de dados. Além disso, ela tem um importante papel no desenvolvimento de ferramentas que possibilitam o processo de organização de dados, com em tabelas. A estatística está presente também em diversos campos da ciência, com base na coleta de dados e em seu tratamento, é possível trabalhar modelos matemáticos que permitem maior desenvolvimento na área estudada. Alguns campos em que a estatística é fundamental: economia, meteorologia, marketing, esportes, sociologia e geociências.</p>
+        <p>Na meteorologia, por exemplo, os dados são coletados em determinado período, depois de organizados, eles são tratados, e assim, com base neles, constrói-se um modelo matemático que nos permite afirmar sobre o clima de dias anteriores com maior grau de confiabilidade. A estatística é um ramo da ciência que nos permite fazer afirmações com certo grau de confiabilidade, mas nunca com 100% de certeza.</p>
+        <h3>Divisões da estatística</h3>
+        <p>A estatística é dividida em duas partes, descritiva e inferencial. A primeira está relacionada à contagem dos elementos envolvidos na pesquisa, esses elementos são contados um a um. Na estatística descritiva, temos como principais ferramentas as medidas de posição, como média, mediana e moda, assim como as medidas de dispersão, como variância e desvio-padrão, temos também tabelas de frequências e gráficos.</p>
+        <p>Ainda na estatística descritiva, temos uma metodologia muito bem definida para uma apresentação de dados com grau considerável de confiabilidade que passa por organização e coleta, resumo, interpretação e representação e, por fim, análise de dados. Um exemplo clássico da utilização da estatística descritiva ocorre na realização do censo populacional (de 10 em 10 anos) pelo Instituto Brasileiro de Geografia e Estatística (IBGE).</p>
+        <p>A estatística inferencial, por sua vez, é caracterizada não por coletar dados dos elementos de uma população um a um, e sim por realizar a análise de uma amostra dessa população, tirando conclusões sobre ela. Na estatística inferencial, deve-se tomar cuidado na escolha da amostra, pois ela deve representar muito bem a população. Alguns resultados iniciais, como calculo de média, na estatística inferencial chamado de esperança, são deduzidos com base nos conhecimentos da estatística descritiva.</p>
+        <p>A estatística inferencial é utilizada, por exemplo, nas pesquisas eleitorais. Escolhe-se uma amostra da população, de forma que a represente, e assim é realizada a pesquisa. Na escolha de uma amostra que não represente muito bem essa população, dizemos que a pesquisa é tendenciosa e, por consequência, não confiável.</p>
+        <nav class="YT"><a href="https://brasilescola.uol.com.br/matematica/estatistica-2.htm" target="_blank">Abrir na fonte original do texto</a></nav>
+        <div class="video" ><iframe width="560" height="315" src="https://www.youtube.com/embed/ZUQhEgMWcp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><nav class="YT"><a href="https://www.youtube.com/watch?v=ZUQhEgMWcp4" target="_blank">Abrir no Youtube</a></nav>
+        <div class="video" ><iframe width="560" height="315" src="https://www.youtube.com/embed/9jZhHmT2VIc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><nav class="YT"><a href="https://www.youtube.com/watch?v=9jZhHmT2VIc" target="_blank">Abrir no Youtube</a></nav>
         
+
+
+
         <nav>
             <a href="../Mat.html">Voltar para a página anterior</a>
             <a href="../index.html">Voltar para a página inicial</a>
