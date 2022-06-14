@@ -4,12 +4,13 @@
     --cor1: #c46a65;
     --cor2: #FACFCD;
     --fontepadrao: 'Bebas Neue', sans-serif;
+    --fontetexto: Arial, sans-serif;
 }
 * {
     padding: 0px;
     margin: 0px;
 }
-header{
+header{ /* cabeçalho portugues*/
     background-color: var(--cor2);
     color: black;
     font-family: var(--fontepadrao);
@@ -28,7 +29,7 @@ body{
     background-color: white;
     font-family: var(--fontepadrao);
 }
-main{
+main{ /* corpo de conteudo */
     background-color: var(--cor2);
     max-width: 1000px;
     min-width: 350px;
@@ -42,13 +43,35 @@ main{
 }
 main h2{
     color: black;
-    text-shadow: 0px 0px 1px black;
     text-align: center;
     font-size: 2em;
     padding-bottom: 30px;
 }
+main.x h1{
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 30px;
+}
+main.x h2{
+    color: black;
+    text-align: left;
+    padding-top: 5px;
+    text-indent: 0.8em;
+    font-size: 1.8em;
+    margin-bottom: 30px;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    display: block;
+    border-radius: 10px;
+    max-height: 10px;
+}
+main h3{
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
 main p{
     padding-bottom: 20px;
+    font-family: var(--fontetexto);
+    
 }
 main a{
     text-decoration: none;
@@ -56,8 +79,18 @@ main a{
     padding: 10px;
     
 }
+main ul.Menu{
+    font-family: var(--fontepadrao);
+}
 main ul{
     padding-left: 20px;
+    font-family: var(--fontetexto);
+}
+main ol{
+    padding-left: 20px;
+}
+main ol > li{ 
+    font-family: var(--fontetexto);
 }
 main li{
     padding: 10px;
@@ -76,12 +109,30 @@ main a:hover{
 main nav{
     text-align: right;
 }
+div.video{/*video*/
+    background-color: var(--cor1);
+    margin: 0px -20px 20px -20px;
+    padding: 15px;
+    padding-bottom: 50%;
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+main > nav.YT{
+    text-align: right;
+    margin: 20px;
+}
 footer{
     background-color: var(--cor2);
     margin-top: 30px;
     text-align: center;
     font-size: 0.8em;
     color: black;
-    
+    text-shadow: 0px 0px 1px black;
     padding-top: 5px;
 }

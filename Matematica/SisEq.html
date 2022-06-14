@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matemática</title>
+    <link rel="stylesheet" href="style-mat.css">
+</head>
+<body>
+    <header>
+        <h1>Matemática</h1>
+        <p>Sistemas de equações</p>
+    </header>
+    <main class="x">
+        <h1>Sistemas de equações</h1>
+        <p>Um sistema de equações é constituído por um conjunto de equações que apresentam mais de uma incógnita. Para resolver um sistema é necessário encontrar os valores que satisfaçam simultaneamente todas as equações.</p>
+        <p>Um sistema é chamado do 1º grau, quando o maior expoente das incógnitas, que integram as equações, é igual a 1 e não existe multiplicação entre essas incógnitas.</p>
+        <h3>Como resolver um sistema de equações do 1º grau?</h3>
+        <p>Podemos resolver um sistema de equações do 1º grau, com duas incógnitas, usando o método da substituição ou o da soma.</p>
+        <h4>Método da substituição</h4>
+        <p>Esse método consiste em escolher uma das equações e isolarmos uma das incógnitas, para determinar o seu valor em relação a outra incógnita. Depois, substituímos esse valor na outra equação.</p>
+        <p>Desta forma, a segunda equação ficará com uma única incógnita e, assim, poderemos encontrar o seu valor final. Para finalizar, substituímos na primeira equação o valor encontrado e, assim, encontramos também o valor da outra incógnita.</p>
+        <p>Exemplo</p>
+        <p>Resolva o seguinte sistema de equações:</p>
+        <p>x + y = 12 </p>
+        <p>3 x - y = 20</p>
+        <p>Resolução</p>
+        <p>Vamos começar escolhendo a primeira equação do sistema, que é a equação mais simples, para isolar o x e substitui-lo na segunda equação. Assim temos:</p>
+        <p>x = 12 - y </p>
+        <p>3.(12 - y) = 20</p>
+        <p>Após substituir o valor de x, na segunda equação, podemos resolvê-la, da seguinte maneira:</p>
+        <p>3.(12-y) - y = 20 &rarr; 36-3y-y = 20 &rarr; -4y = 20-36 &rarr; 4y=16 &rarr;  y = 16/4 = 4</p>
+        <p>Agora que encontramos o valor do y, podemos substituir esse valor da primeira equação, para encontrar o valor do x:</p>
+        <p>x + 4 = 12 &rarr; x = 12 - 4 &rarr; x = 8</p>
+        <p>Assim, a solução para o sistema dado é o par ordenado (8, 4). Repare que esse resultado tornam ambas as equações verdadeiras, pois 8 + 4 = 12 e 3.8 - 4 = 20.</p>
+        <h4>Método da Adição</h4>
+        <p>No método da adição buscamos juntar as duas equações em uma única equação, eliminando uma das incógnitas.</p>
+        <p>Para isso, é necessário que os coeficientes de uma das incógnitas sejam opostos, isto é, devem ter o mesmo valor e sinais contrários.</p>
+        <p>Exemplo</p>
+        <p>Para exemplificar o método da adição, vamos resolver o mesmo sistema anterior:</p>
+        <p>x + y = 12</p>
+        <p>3 x - y = 20</p>
+        <p>Note que nesse sistema a incógnita y possui coeficientes opostos, ou seja, 1 e - 1. Então, iremos começar a calcular somando as duas equações, conforme indicamos abaixo:</p>
+        <p>x + y = 12 e 3x - y = 20 &rarr; 4x = 32</p>
+        <p>Ao anular o y, a equação ficou apenas com o x, portanto agora, podemos resolver a equação:</p>
+        <p>x = 32/4 = 8</p>
+        <p>Para encontrar o valor do y, basta substituir esse valor em uma das duas equações. Vamos substituir na mais simples:</p>
+        <p>8 + y = 12 &rarr; y = 12 - 8 &rarr; y = 4</p>
+        <p>Note que o resultado é o mesmo que já havíamos encontrado, usando o método da substituição.</p>
+        <p>Quando as equações de um sistema não apresentam incógnitas com coeficientes opostos, podemos multiplicar todos os termos por um determinado valor, a fim de tornar possível utilizar esse método.</p>
+        <p>Por exemplo, no sistema abaixo, os coeficientes de x e de y não são opostos:</p>
+        <p>3x + y = 24 e 5x + 2 y = 60</p>
+        <p>Portanto, não podemos, inicialmente, anular nenhuma das incógnitas. Neste caso, devemos multiplicar por algum número que transforme o coeficiente em um número oposto do coeficiente da outra equação.</p>
+        <p>Podemos, por exemplo, multiplicar a primeira equação por - 2. Contudo, devemos ter o cuidado de multiplicarmos todos os termos por - 2, para não modificarmos a igualdade.</p>
+        <p>Assim, o sistema equivalente ao que queremos calcular é:</p>
+        <p>-6x - 2y = -48 &rarr; 5x + 2y = 60</p>
+        <p>Agora, é possível resolver o sistema por adição, conforme apresentado abaixo:</p>
+        <p>-6x - 2y = -48 e 5x + 2y = 60 &rarr; -1x = 12</p>
+        <p>Logo, x = - 12, não podemos esquecer de substituir esse valor em uma das equações para encontrar o valor do y. Substituindo na primeira equação, temos:</p>
+        <p>-6.(-12)-2y = -48 &rarr; 72-2y = -48 &rarr; -2y = -48 - 72 &rarr; -2y = -120 &rarr; y = 120/2 = 60</p>
+        <p>Assim, a solução para o sistema é o par ordenado (- 12, 60)</p>
+        <h4>Classificação dos sistemas de equações</h4>
+        <p>Um sistema do 1º grau, com duas incógnitas x e y, formado pelas equações a1x + b1y = c1 e a2x + b2y = c2, terá a seguinte classificação: possível e determinado, possível e indeterminado e impossível.</p>
+        <p>O sistema será possível e determinado quando apresentar uma única solução. Isso acontecerá quando:</p>
+        <p>a1/a2 &ne; b1/b2</p>
+        <p>Quando o sistema apresentar infinitas soluções, será classificado como possível e indeterminado. A condição para que um sistema seja desse tipo é:</p>
+        <p>a1/a2 = b1/b2 = c1/c2</p>
+        <p>Já os sistemas impossíveis, não possuem nenhuma solução. Nesse tipo de sistema temos:</p>
+        <p>a1/a2 = b1/b2 &ne; c1/c2</p>
+        <p>Exemplo</p>
+        <p>Classifique o sistema abaixo:</p>
+        <p>2x + y = -4 e 4x + 2y = 6</p>
+        <p>Para identificar o tipo de sistema, vamos calcular a razão entre os coeficientes das equações:</p>
+        <p>a1/a2 = 2/4</p>
+        <p>b1/b2 = 1/2</p>
+        <p>c1/c2 = -4 /6 = -(2/3)</p>
+        <p>Como</p>
+        <p>2/4 = 1/2 &ne; =(2/3)</p>
+        <p>Então, o sistema é impossível.</p>
+        <nav class="YT"><a href="https://www.todamateria.com.br/sistemas-de-equacoes/" target="_blank">Abrir na fonte original do texto</a></nav>
+        <div class="video" ><iframe width="560" height="315" src="https://www.youtube.com/embed/gYa-1rXiZdQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><nav class="YT"><a href="https://www.youtube.com/watch?v=gYa-1rXiZdQ" target="_blank">Abrir no Youtube</a></nav>
+        <nav>
+            <a href="../Mat.html">Voltar para a página anterior</a>
+            <a href="../index.html">Voltar para a página inicial</a>
+        </nav>
+    </main>
+    <footer>
+        <p>versão 1.0</p>
+    </footer>
+</body>
+</html>

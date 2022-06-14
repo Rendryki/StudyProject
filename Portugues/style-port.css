@@ -11,7 +11,7 @@
     padding: 0px;
     margin: 0px;
 }
-header{
+header{ /* cabeçalho portugues*/
     background-color: var(--cor2);
     color: black;
     font-family: var(--fontepadrao);
@@ -30,7 +30,7 @@ body{
     background-color: white;
     font-family: var(--fontepadrao);
 }
-main{
+main{ /* corpo de conteudo */
     background-color: var(--cor2);
     max-width: 1000px;
     min-width: 350px;
@@ -79,6 +79,9 @@ main a{
     color: black;
     padding: 10px;
     
+}
+main ul.Menu{
+    font-family: var(--fontepadrao);
 }
 main ul{
     padding-left: 20px;

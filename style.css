@@ -1,15 +1,16 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-:root{
+:root{ /* declaração de variáveis */
     --cor1: #61573B;
     --cor2: #E0C989;
     --fontepadrao: 'Bebas Neue', sans-serif;
+    --fontetexto: Arial, sans-serif;
 }
-* {
+* { /* declaração universal */
     padding: 0px;
     margin: 0px;
 }
-header{
+header{ /* cabeçalho da página inicial */
     background-color: var(--cor2);
     color: black;
     font-family: var(--fontepadrao);
@@ -24,11 +25,11 @@ header{
 
     padding: 20px;
 }
-body{
+body{ /* corpo de fundo */
     background-color: white;
     font-family: var(--fontepadrao);
 }
-main{
+main{ /* Menu inicial */ 
     background-color: var(--cor2);
     max-width: 1000px;
     min-width: 350px;
