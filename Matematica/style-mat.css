@@ -10,7 +10,7 @@
     padding: 0px;
     margin: 0px;
 }
-header{ /* cabeçalho portugues*/
+header{ /* cabeçalho*/
     background-color: var(--cor2);
     color: black;
     font-family: var(--fontepadrao);
@@ -25,7 +25,7 @@ header{ /* cabeçalho portugues*/
 
     padding: 20px;
 }
-body{
+body{ /* cor do fundo */
     background-color: white;
     font-family: var(--fontepadrao);
 }
@@ -47,12 +47,12 @@ main h2{
     font-size: 2em;
     padding-bottom: 30px;
 }
-main.x h1{
+main.x h1{ /* titulo principal da pagina */
     text-align: center;
     font-size: 2em;
     padding-bottom: 30px;
 }
-main.x h2{
+main.x h2{ /* titulo secundario da página */
     color: black;
     text-align: left;
     padding-top: 5px;
@@ -68,7 +68,7 @@ main h3{
     font-size: 1.5em;
     padding-bottom: 10px;
 }
-main p{
+main p{ /* paragrafos */
     padding-bottom: 20px;
     font-family: var(--fontetexto);
     
